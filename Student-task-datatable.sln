@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Student-task-datatable", "Student-task-datatable.csproj", "{FC3D405B-8B70-4DC3-8958-DBE2FBFEE9EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC3D405B-8B70-4DC3-8958-DBE2FBFEE9EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC3D405B-8B70-4DC3-8958-DBE2FBFEE9EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC3D405B-8B70-4DC3-8958-DBE2FBFEE9EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC3D405B-8B70-4DC3-8958-DBE2FBFEE9EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA05A305-E764-4358-803D-FA3EB8021429}
+	EndGlobalSection
+EndGlobal

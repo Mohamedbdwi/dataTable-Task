@@ -1,0 +1,41 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<link href="~/lib/datatables/css/datatables.bootstrap4.css" rel="stylesheet" />
+<link href="~/lib/datatables/css/datatables.bootstrap4.min.css" rel="stylesheet" />
+
+<div class="container">
+    <h3 class="text-primary">Students</h3>
+    <hr />
+    <table id="students" class="table table-striped table-bordered dt-responsive nowrap">
+        <thead class="bg-dark text-white">
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                @*<th>Date of birth</th>*@
+                @*<th>Year enrolled</th>*@
+                <th>Year class</th>
+                <th>Address</th>
+                <th>Age</th>
+                <th>Email</th>
+                @*<th>Password</th>*@
+                <th>Section</th>
+                @*<th>GPA</th>*@
+                <th>Phone No.</th>
+                @*<th>Hobby</th>*@
+                <th>Gender</th>
+                <th>Department</th>
+            </tr>
+        </thead>
+    </table>
+
+</div>
+
+@section scripts{
+    <script src="~/lib/datatables/js/jquery.datatables.js"></script>
+    <script src="~/lib/datatables/js/jquery.datatables.min.js"></script>
+    <script src="~/lib/datatables/js/datatables.bootstrap4.js"></script>
+    <script src="~/lib/datatables/js/datatables.bootstrap4.min.js"></script>
+    <script src="~/js/studentsdatatable.js"></script>
+}
